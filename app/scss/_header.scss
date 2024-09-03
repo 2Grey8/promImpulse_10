@@ -1,0 +1,83 @@
+.header{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 192rem;
+    height: 80rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    padding-top: 4.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bgheader.png);
+  }
+
+  &__group{
+    width: 138rem;
+    margin: 0 auto;
+    margin-bottom: 26rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo{
+    display: block;
+    width: 8.5rem;
+    height: 2.68rem;
+  }
+
+  &__navigation{
+    width: 96rem;
+    display: block;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__contact{
+    display: block;
+    width: 13.8rem;
+    text-align: left;
+  }
+
+  &__box{
+    display: block;
+    width: 141.7rem;
+    background: #FFFFFF;
+    padding-left: 38.7rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    position: relative;
+  }
+
+  &__title{
+    display: block;
+    width: 98rem;
+    margin-bottom: 2rem;
+  }
+
+  &__text{
+    display: block;
+    width: 98rem;
+    margin-bottom: 2rem;
+  }
+
+  &__date{
+    display: block;
+    width: 50.3rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    text-align: center;
+    background: #118BDD;
+    position: absolute;
+    top: 38rem;
+    left: 141.7rem;
+  }
+}

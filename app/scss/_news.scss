@@ -1,0 +1,180 @@
+.news{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 192rem;
+    margin: 0 auto;
+    margin-bottom: 12rem;
+    padding-left: 38.7rem;
+  }
+
+  &__table{
+    width: 98rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  &__column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+
+    &_1{
+      width: 48rem;
+      background: #F0F6F9;
+    }
+
+    &_2{
+      width: 25rem;
+      background: #D9EBF5;;
+    }
+
+    &_3{
+      width: 25rem;
+      background: #D9EBF5;;
+    }
+  }
+
+  &__raw{
+    display: block;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    text-align: center;
+    border: 1px solid #fff;
+
+    &_zero{
+      height: 5rem;
+      background: #DBEAF3
+
+    }
+
+    &_1{
+      background: #C3DDED;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    &_2{
+      background: #DBEAF3;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    &_bottom{
+      border-bottom: none;
+    }
+  }
+
+  &__title{
+    display: block;
+    width: 98rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  &__remark{
+    display: block;
+    width: 98rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-top: 3.6rem;
+    padding-bottom: 3.7rem;
+    text-align: left;
+    background: #F0F6F9;
+  }
+
+  &__text{
+    display: block;
+    width: 98rem;
+    margin-bottom: 5rem;
+    text-align: left;
+
+    p{
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__container{
+    margin-bottom: 5rem;
+  }
+
+  &__img{
+    display: block;
+    width: 98rem;
+  }
+
+  &__list{
+    display: block;
+    width: 98rem;
+    margin-bottom: 5rem;
+    text-align: left;
+  }
+
+  &__item:first-child{
+    margin-top: 2rem;
+  }
+
+  &__form{
+    display: flex;
+    width: 98rem;
+    text-align: left;
+    position: relative;
+  }
+
+  &__imgBox{
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    background: #EDEDED;
+    position: relative;
+
+    &::after{
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 3rem;
+      background-repeat: no-repeat;
+      background-image: url(../img/files.png);
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+  }
+
+  &__name{
+    display: inline-block;
+    width: 63.7rem;
+    padding-left: 2rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.5rem;
+    background: #FAFAFA;
+    position: relative;
+  }
+
+  &__btn{
+    display: inline-block;
+    width: 20rem;
+    padding-left: 6.3rem;
+    padding-top: 2.9rem;
+    padding-right: 2.9rem;
+    padding-bottom: 2.7rem;
+    background: #118BDD;
+    border: none;
+    color: #fff;
+    position: relative;
+
+    &::before{
+      content: "";
+      display: block;
+      width: 8.4rem;
+      height: 2.4rem;
+      background-repeat: no-repeat;
+      background-image: url(../img/load.png);
+      position: absolute;
+      top: 3rem;
+      left: 2rem;
+    }
+  }
+}
